@@ -1,5 +1,3 @@
-# IntervalMap
-
 An interval-map is a mutable data structure that maps half-open intervals of exact keys to values. 
 Internally, it is built on top of an std::map. The functionality is designed for an efficient use in situations where intervals of consecutive keys are associated with the same value. 
 
